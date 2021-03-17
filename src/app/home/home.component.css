@@ -1,0 +1,220 @@
+
+.banner {
+
+        /* background-color: antiquewhite; */
+        background-color: #81717A;
+
+}
+
+.menu {
+    padding: 5px;
+    background-color:white;
+    font-size: initial;
+    color: #81717A;
+    font-weight: bolder;
+}
+
+.buttons {
+    margin: 10px;
+}
+
+.care {
+    text-align:center;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+ 
+}
+
+iframe {
+    height:100%;
+    width:100%;    
+    border: 0px;
+    overflow:auto;
+}
+
+.titles {
+    font-size:x-large;
+    padding:15px;
+}
+
+.icons {
+    font-size: 40px !important;
+    margin-right: 30px;
+}
+
+#footer {
+    background-color:#F5D1C1;
+    color:#81717A;
+    padding:50px;
+
+}
+
+#insta-title {
+    text-align:center;
+    color:#81717A;
+    font-size:x-large;
+    padding:15px;
+}
+
+#mila-description {
+    text-align:center;
+    color: #F5D1C1;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    /* background-color: antiquewhite; */
+    background-color: #81717A; 
+
+    padding: 20px;
+}
+
+#name {
+
+    /* background-color:white; */
+    font-size: xx-large !important;
+    padding: 15px;
+    border: solid 1px;
+    border-style: dashed;
+}
+
+#mila-photo {
+    background-color:#F5D1C1;
+    border-radius: 725px 0px 0px 192px;
+    text-align: center;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+
+#about {
+    margin: 12px 0px 0px 0px;
+}
+
+#schedule:hover {
+    padding:10px;
+    color: #81717A;
+    background-color: #F5D1C1;
+    margin: 12px 0px 0px 0px;
+    border: solid 1px;
+    border-style: double;
+    font-size:x-large;
+    border-radius: 100px 40px 100px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor:pointer;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;        
+    text-decoration: none;
+}
+
+#schedule {
+    padding:10px;
+    color: #F5D1C1;
+    background-color: #81717A;
+    margin: 12px 0px 0px 0px;
+    border: solid 1px;
+    border-style: double;
+    font-size:x-large;
+    border-radius: 100px 40px 100px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contact {
+    font-size: xx-large;
+    padding: 15px;
+    background-color: #F5D1C1;
+    color: #81717A;
+}
+
+.info {
+    background-color:#C4D7D1;
+
+}
+
+#params {
+
+}
+
+#keys {
+
+}
+
+@keyframes slideInFromLeft {
+    0% {
+            transform: translateX(-100%);
+              
+    }
+    100% {
+            transform: translateX(0);
+              
+    }
+    
+}
+
+
+ @keyframes slideInFromRight {
+    0% {
+            transform: translateX(100%);
+              
+    }
+    100% {
+            transform: translateX(0);
+              
+    }
+    
+}       
+
+
+
+        
+        @keyframes fadein {
+            from {
+                        opacity:0;
+                            
+            }
+            to {
+                        opacity:1;
+                            
+            }
+            
+        }
+        @-moz-keyframes fadein { /* Firefox */
+            from {
+                        opacity:0;
+                            
+        }
+        to {
+                    opacity:1;
+                        
+    }
+}
+
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+                opacity:0;
+                    
+}
+to {
+            opacity:1;
+                
+}
+}
+
+@-o-keyframes fadein { /* Opera */
+ from {
+                opacity:0;
+                    
+}
+to {
+            opacity: 1;
+                
+}
+}
+
