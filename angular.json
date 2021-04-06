@@ -125,5 +125,8 @@
       }
     }
   },
-  "defaultProject": "camila-site"
+  "defaultProject": "camila-site",
+  "cli": {
+    "analytics": "d3469f4a-aa30-4e86-b5e1-cbda8ace07e8"
+  }
 }
