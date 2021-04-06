@@ -16,10 +16,10 @@
         </div>
         <div id="about">
             <h2>
-                Tenho formação em medicina e pediatria pela Universidade Federal do Piauí. Além disso, sou Neuropediatra pela Universidade Estadual de Campinas (Unicamp). Com execelência e respeito, meu foco é ajudar o seu filho.
+               Sou médica, formada na Universidade Federal do Piauí, pediatra também pela Universidade Federal do Piauí e neuropediatra pela Universidade Estadual de Campinas (Unicamp).
             </h2>
         </div>
-        <a  href="http://google.com">
+        <a  (click)="openDialog()">
         <div id="schedule">
             <span class="material-icons">
                 event
@@ -33,69 +33,93 @@
     </div>
 </div>
 <div id="contact" fxLayout fxLayoutAlign="center center">
-    Atendimentos
+    Especialidade
 </div>
 
-<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="space-evenly center">
-        <div class="care" id="params">
-            <div class="titles">
-                Neuropediatria
+<div class="info"  fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
+            <div class="meninin" fxFlex="50" fxLayoutAlign="center center">
+                <img id="baby" src="assets/meninin.jpg" alt="Girl in a jacket" width="300" height="490">
             </div>
-            <div fxLayout="collumn" fxLayoutAlign="space-around center">
-                <div>
-                    <span class="material-icons icons">
-                        escalator_warning
-                    </span>
-                </div>
-                <div>
-                    asdfasdfasdfasd
-                </div>
-            </div>
-        </div>
-        <div class="care" id="keys">
-            <div class="titles">
-                Consulta
-            </div>
-            <div fxLayout="collumn" fxLayoutAlign="space-around center">
+            
+            <div class="care" id="params" fxFlex="50">
+
+
+                    <div style="" class="justified size-jutified text-description line-height">
+                    <div class="titles center">
+                        Neuropediatria
+                    </div>
+                    Dou assistência a famílias com crianças com suspeita ou confirmação de alteração neurológica. Meu foco é o diagnóstico e cuidado de crianças com paralisia cerebral. Queixas e diagnósticos comuns em meus atendimentos são:
+                    <br>- Atraso do desenvolvimento motor
+                    <br>- Movimentos atípicos
+                    <br>- Prematuridade
+                    <br>- Convulsão febril
+                    <br>- Epilepsia
+                    <br>- Dor de cabeça
+                    <br>- Atraso no desenvolvimento da linguagem
+                    <br>- Dificuldade de aprendizagem
+                   </div>
+           </div>
+            
+</div>
+
+<div id="contact" fxLayout fxLayoutAlign="center center" style="text-align:center">
+    Formas de atendimento
+</div>
+
+<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
+
+            <div class="care" fxLayout="collumn" fxFlex="50" fxLayoutAlign="start center">
                 <div>
                     <span class="material-icons icons">
                         home
                     </span>
                 </div>
                 <div>
-                    asdfasdfasdfasd
+                    <div class="titles">
+                        Domiciliar
+                    </div>
+                    <div class="text-description justified">
+                        O atendimento domiciliar é uma paixão antiga! É um ambiente muito propício para uma conversa sem pressa, abordando todas as queixas e dúvidas. É também onde conseguimos examinar a criança de forma mais tranquila, já que ali ela se sente segura. É uma excelente forma de começarmos nossa caminhada juntos.
+                    </div>
                 </div>
             </div>
-            <div fxLayout="collumn" fxLayoutAlign="space-around center">
+            <div class="care" fxLayout="collumn" fxFlex="50" fxLayoutAlign="start center">
                 <div>
                     <span class="material-icons icons">
                         computer
                     </span>
                 </div>
                 <div>
-                    asdfasdfasdfasd
+                    <div class="titles">
+                        Teleatendimento
+                    </div>
+                    <div class="text-description justified">
+  Telemedicina é uma ferramenta muito útil, que rompe muitas barreiras. Muitas condições podem ser avaliadas e diagnosticadas através desse meio, podemos tirar dúvidas e fazer orientações. Mas há ainda muitos casos em que uma consulta presencial é necessária.
+                    </div>
                 </div>
             </div>
-        </div>
-
 </div>
+
+
+
 <div id="contact" fxLayout fxLayoutAlign="center center">
     Contato
 </div>
 
-<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
-        <div id="params">
-            asdfasdfasdfasdf
-        </div>
-        <div id="keys">
-            asdfasdfasdfasda
+<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center" style="padding:10px">
+            <span class="material-icons icons" style="margin-right:0px;">
+                email
+            </span>
+        <div id="keys" style="padding: 20px;font-size: large;">
+            neurocamilasilveira@gmail.com
         </div>
 </div>
 <div id="insta-title">
     Siga minhas postagens no Instagram
 </div>
 
-<iframe src="https://widget.taggbox.com/52219" id="insta">
+<iframe  src="https://widget.taggbox.com/54512" id="insta">
+
 <footer>
     Site desenvolvido pelo meu marido: Jonathas Silveira
 <footer>

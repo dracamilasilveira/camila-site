@@ -6,6 +6,20 @@
 
 }
 
+iframe {
+   width: 100px;
+   margin: 0 auto;                 
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
+.fatCard {
+width: 15%;
+max-width: 2000px !important;
+}
+
 .menu {
     padding: 5px;
     background-color:white;
@@ -18,13 +32,36 @@
     margin: 10px;
 }
 
-.care {
-    text-align:center;
+.justified {
+    /*text-align: justify !important;*/
+    text-justify: inter-word !important;
+}
+
+.size-jutified {
+   max-width: 600px;
+}
+
+.text-description {
+    font-size:initial;
+}
+
+.meninin {
+    padding:30px;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
     -webkit-animation: fadein 4s; /* Safari and Chrome */
     -o-animation: fadein 4s; /* Opera */
- 
+    background-color: rgb(245, 209, 193);
+    border-radius: 0px 725px 192px 0px;
+}
+
+.care {
+    text-align:initial;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    padding:30px;
 }
 
 iframe {
@@ -34,14 +71,40 @@ iframe {
     overflow:auto;
 }
 
+ul {
+    /* text-align: initial; */
+}
+
+
+
 .titles {
-    font-size:x-large;
-    padding:15px;
+    line-height:1;
+    font-size:x-large !important;
+    /*padding:15px;*/
+    margin-bottom: 15px;
+    margin-top:15px;
 }
 
 .icons {
     font-size: 40px !important;
     margin-right: 30px;
+    border: solid 0px;
+    border-radius: 31px 31px 31px 31px;
+    background-color: white;
+    padding: 10px;            
+}
+
+#mom-son{
+    font-size: 40px !important;
+    margin-right: 0px !important;
+    border: solid 0px;
+    border-radius: 31px 31px 31px 31px;
+    background-color: white;
+    padding: 10px;            
+}
+
+.center {
+    text-align:center !important;
 }
 
 #footer {
@@ -52,6 +115,7 @@ iframe {
 }
 
 #insta-title {
+    line-height:1;
     text-align:center;
     color:#81717A;
     font-size:x-large;
@@ -127,6 +191,7 @@ a:-webkit-any-link {
 }
 
 #contact {
+    line-height:1;
     font-size: xx-large;
     padding: 15px;
     background-color: #F5D1C1;
@@ -135,7 +200,10 @@ a:-webkit-any-link {
 
 .info {
     background-color:#C4D7D1;
+}
 
+.line-height {
+    line-height:1.5;
 }
 
 #params {
@@ -145,6 +213,15 @@ a:-webkit-any-link {
 #keys {
 
 }
+
+#baby {
+    box-shadow: 0px 0px 10px 0px darksalmon;
+    animation: slideInFromLeft 2s;
+    -moz-animation: slideInFromLeft 2s; /* Firefox */
+    -webkit-animation: slideInFromLeft 2s; /* Safari and Chrome */
+    -o-animation: slideInFromLeft 2s; /* Opera */
+}
+
 
 @keyframes slideInFromLeft {
     0% {
