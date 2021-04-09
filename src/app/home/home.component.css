@@ -158,19 +158,7 @@ ul {
     margin: 12px 0px 0px 0px;
 }
 
-#schedule:hover {
-    padding:10px;
-    color: #81717A;
-    background-color: #F5D1C1;
-    margin: 12px 0px 0px 0px;
-    border: solid 1px;
-    border-style: double;
-    font-size:x-large;
-    border-radius: 100px 40px 100px 40px;
-    margin-left: 50px;
-    margin-right: 50px;
-    cursor:pointer;
-}
+
 
 #wpp {
     padding:15px;
@@ -213,6 +201,30 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
+#float-schedule {
+    padding:10px;
+    color: #81717A;
+    background-color: #F5D1C1;
+    border: solid 1.5px;
+    border-style: dashed;
+    font-size:x-large;
+    border-radius: 45px 45px 45px 45px;
+    width:45px;
+    height:45px;
+    position:fixed;
+    z-index:10;
+    text-align:center;
+    right: 0;
+    bottom: 0;
+    margin-right:3px;
+    margin-bottom:3px;
+}
+
+#float-schedule:hover {
+    cursor:pointer;
+}
+
+
 #schedule {
     padding:10px;
     color: #F5D1C1;
@@ -224,6 +236,20 @@ a:-webkit-any-link {
     border-radius: 100px 40px 100px 40px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#schedule:hover {
+    padding:10px;
+    color: #81717A;
+    background-color: #F5D1C1;
+    margin: 12px 0px 0px 0px;
+    border: solid 1px;
+    border-style: double;
+    font-size:x-large;
+    border-radius: 100px 40px 100px 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor:pointer;
 }
 
 #contact {
