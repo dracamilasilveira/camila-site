@@ -1,9 +1,6 @@
-
 .banner {
-
-        /* background-color: antiquewhite; */
-        background-color: #81717A;
-
+    /* background-color: antiquewhite; */
+    background-color: #81717A;
 }
 
 iframe {
@@ -15,9 +12,10 @@ iframe {
     display: block;
     border-style:none;
 }
+
 .fatCard {
-width: 15%;
-max-width: 2000px !important;
+    width: 15%;
+    max-width: 2000px !important;
 }
 
 .menu {
