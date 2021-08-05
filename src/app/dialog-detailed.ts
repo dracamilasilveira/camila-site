@@ -25,7 +25,7 @@ export class DialogOverviewDetailed {
 
     toImed() {
         //window.location.replace("https://aol.imedicina.com.br/#/event/24754/1137935");
-        window.open("https://aol.imedicina.com.br/#/event/24754/1137935", '_blank');
+        window.open("https://api.whatsapp.com/send?phone=5519984426298", '_blank');
     }
 
     onClick(): boolean {
