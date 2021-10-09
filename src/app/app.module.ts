@@ -7,13 +7,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { MaterialModule  } from './material.module';
 import { DialogOverviewDetailed  } from './dialog-detailed';
+import { BlogComponent } from './blog/blog.component';
 
 
 @NgModule({
   declarations: [
     DialogOverviewDetailed,
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

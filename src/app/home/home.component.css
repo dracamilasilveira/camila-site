@@ -1,3 +1,5 @@
+/* Each division with 600px */
+
 .banner {
     /* background-color: antiquewhite; */
     background-color: #81717A;
@@ -18,12 +20,22 @@ iframe {
     max-width: 2000px !important;
 }
 
+.menu-space {
+    padding: 5px;
+    background-color:white;
+    font-size: initial;
+    color: #81717A;
+    font-weight: bolder;
+}
+
 .menu {
     padding: 5px;
     background-color:white;
     font-size: initial;
     color: #81717A;
     font-weight: bolder;
+    position: fixed;
+    width:100%;
 }
 
 .buttons {
@@ -40,10 +52,13 @@ iframe {
 }
 
 .text-description {
-    font-size:initial;
+    font-size:x-large;
+    line-height:1.6;
 }
 
 .meninin {
+    /*background-image: url("assets/parede-boldrini.jpeg");*/
+    height:auto;
     padding:30px;
     animation: fadein 4s;
     -moz-animation: fadein 4s; /* Firefox */
@@ -51,6 +66,7 @@ iframe {
     -o-animation: fadein 4s; /* Opera */
     background-color: rgb(245, 209, 193);
     border-radius: 0px 725px 192px 0px;
+
 }
 
 .care {
@@ -60,6 +76,26 @@ iframe {
     -webkit-animation: fadein 4s; /* Safari and Chrome */
     -o-animation: fadein 4s; /* Opera */
     padding:30px;
+}
+
+.details {
+    border-top: solid 1px;
+    font-size: x-large;
+    padding: 10px;
+    margin-top:5px;
+}
+
+.care-appointment {
+    text-align:initial;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    padding:30px;
+    margin:10px;
+    background-color:white;
+    min-height:510px;
+    box-shadow: 2px 2px 2px 2px darkgrey;
 }
 
 iframe {
@@ -77,10 +113,11 @@ ul {
 
 .titles {
     line-height:1;
-    font-size:x-large !important;
+    font-size:xx-large !important;
     /*padding:15px;*/
     margin-bottom: 15px;
     margin-top:15px;
+    
 }
 
 .icons {
@@ -113,10 +150,10 @@ ul {
 }
 
 #insta-title {
-    line-height:1;
+    line-height:1.6;
     text-align:center;
     color:#81717A;
-    font-size:x-large;
+    font-size: 40px;
     padding:15px;
 }
 
@@ -136,10 +173,11 @@ ul {
 #name {
 
     /* background-color:white; */
-    font-size: xx-large !important;
-    padding: 15px;
+    font-size: xxx-large !important;
+    padding: 25px;
     border: solid 1px;
     border-style: dashed;
+    line-height: 1;
 }
 
 #mila-photo {
@@ -154,7 +192,10 @@ ul {
 
 #about {
     margin: 12px 0px 0px 0px;
+    font-size: x-large !important;
+    line-height:1.5;
 }
+
 
 
 
@@ -252,14 +293,20 @@ a:-webkit-any-link {
 
 #contact {
     line-height:1;
-    font-size: xx-large;
+    font-size: 40px;
     padding: 15px;
     background-color: #F5D1C1;
     color: #81717A;
 }
 
+.info-extended {
+    min-height:600px;
+}
+
 .info {
     background-color:#C4D7D1;
+    /*min-height:600px;*/
+
 }
 
 .line-height {

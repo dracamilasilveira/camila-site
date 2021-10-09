@@ -4,10 +4,33 @@
             <a>Home</a>
         </div>
         <div class="buttons">
+            <a>Especialidade</a>
+        </div>
+        <div class="buttons">
+            <a>Serviços</a>
+        </div>
+        <div class="buttons">
+            <a>Agende!</a>
+        </div>
+        <div class="buttons">
+            <a routerLink="/blog">Blog</a>
+        </div>
+        <div class="buttons">
+            <a>Instagram</a>
+        </div>
+</div>
+
+
+<div class="menu-space" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
+        <div class="buttons">
+            <a>Home</a>
+        </div>
+        <div class="buttons">
             <a>Blog</a>
         </div>
 </div>
 -->
+<!-- Tag to generate space enough to put the main div in the correct place -->
 <a  (click)="openDialog()">
   <div id="float-schedule">
   <span class="material-icons" style="font-size:35px; margin-top:5px">
@@ -24,9 +47,7 @@
 
         </div>
         <div id="about">
-            <h2>
                Sou neuropediatra pela Unicamp, especialista em cuidar de pequenos desde 2016.
-            </h2>
         </div>
         <a  (click)="openDialog()">
         <div id="schedule">
@@ -39,15 +60,17 @@
     </div>
     <div id="mila-photo" fxFlex="55">
         <img src="assets/mila_croped.png" alt="Girl in a jacket" width="310" height="400">
+        <!-- <img src="assets/mila_croped.png" alt="Girl in a jacket" width="450" height="600"> -->
     </div>
 </div>
 <div id="contact" fxLayout fxLayoutAlign="center center">
     Minha especialidade
 </div>
 
-<div class="info"  fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
-            <div class="meninin" fxFlex="50" fxLayoutAlign="center center">
-                <img id="baby" src="assets/meninin.jpg" alt="Girl in a jacket" width="300" height="490">
+<div class="info info-extended"  fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center stretch">
+            <div class="meninin" fxFlex="50" fxLayoutAlign="center center" style="background-image: url('assets/parede-boldrini.jpeg')">
+                <!-- <img id="baby" src="assets/meninin.jpg" alt="Girl in a jacket" width="300" height="490"> -->
+                    <!-- <img id="baby" src="assets/parede-boldrini.jpeg" alt="Girl in a jacket" width="300" height="490"> -->
             </div>
             
             <div class="care" id="params" fxFlex="50">
@@ -77,37 +100,69 @@
     Meus serviços
 </div>
 
-<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
+<div class="info info-extended" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center">
 
-            <div class="care" fxLayout="collumn" fxFlex="50" fxLayoutAlign="start center">
-                <div>
+            <div class="care-appointment" fxLayout="collumn" fxFlex="33" fxLayoutAlign="start center">
+
+                <div style="text-align:center">
+                    <div>
                     <span class="material-icons icons">
                         home
                     </span>
-                </div>
-                <div>
+                    </div>
                     <div class="titles">
                         Consulta Domiciliar
                     </div>
                     <div class="text-description justified">
-                        O atendimento domiciliar é uma paixão antiga! É um ambiente muito propício para uma conversa sem pressa, abordando todas as queixas e dúvidas. É também onde conseguimos examinar a criança de forma mais tranquila, já que ali ela se sente segura. É uma excelente forma de começarmos nossa caminhada juntos. <br>
-                        * Somente Campinas e região.
+                        O atendimento domiciliar é uma paixão antiga! É um ambiente muito propício para uma conversa sem pressa, abordando todas as queixas e dúvidas. É também onde conseguimos examinar a criança de forma mais tranquila, já que ali ela se sente segura. É uma excelente forma de começarmos nossa caminhada juntos.
+                    </div>
+                    <div class="details">
+                        Somente em Campinas e região
+                    </div>
+
+                    <div class="details">
+                        Orçamento: A depender do endereço
                     </div>
                 </div>
             </div>
-            <div class="care" fxLayout="collumn" fxFlex="50" fxLayoutAlign="start center">
-                <div>
+            <div class="care-appointment" fxLayout="collumn" fxFlex="33" fxLayoutAlign="start center">
+
+                <div style="text-align:center">
                     <span class="material-icons icons">
                         computer
                     </span>
-                </div>
-                <div>
                     <div class="titles">
                         Consulta Online
                     </div>
                     <div class="text-description justified">
-  É uma ferramenta muito útil, que rompe a barreira da distância. Muitas condições podem ser avaliadas e diagnosticadas através desse meio, podemos tirar dúvidas e fazer orientações. 
-  <br> *Todo o Brasil
+  É uma ferramenta muito útil, que rompe a barreira da distância. Muitas condições podem ser avaliadas e diagnosticadas através desse meio, podemos tirar dúvidas e fazer orientações. Nessa modalidade, também podemos avaliar a condução do seu filho durante uma internação hospitalar. 
+                    </div>
+                    <div class="details">
+                        Todo o Brasil
+                    </div>
+
+                    <div class="details">
+                        Orçamento: R$ 490,00
+                    </div>
+                </div>
+            </div>
+            <div class="care-appointment" fxLayout="collumn" fxFlex="33" fxLayoutAlign="start center">
+                <div style="text-align:center">
+                    <span class="material-icons icons">
+                        computer
+                    </span>
+                    <div class="titles">
+                        Consultoria Virtual
+                    </div>
+                    <div class="text-description justified">
+                        Você pode escolher um assunto para conversarmos a respeito e tirarmos todas as suas dúvidas, como paralisia cerebral, autismo, TDAH, uso de telas... Essa opção é mais escolhida por pais que desejam ser atualizados sobre algum tema.
+                    </div>
+                    <div class="details">
+                        Todo o Brasil
+                    </div>
+
+                    <div class="details">
+                        Orçamento: R$ 300,00
                     </div>
                 </div>
             </div>
@@ -119,7 +174,7 @@
     Contato
 </div>
 
-<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center" style="padding:10px">
+<div class="info" fxLayout fxLayout.xs="column" fxLayout.sm="column" fxLayout="row" fxLayoutAlign="center center" style="padding:10px; ">
             <span class="material-icons icons" style="margin-right:0px;">
                 email
             </span>
