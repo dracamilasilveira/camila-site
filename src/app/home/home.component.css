@@ -52,7 +52,7 @@ iframe {
 }
 
 .text-description {
-    font-size:x-large;
+    font-size:20px;
     line-height:1.6;
 }
 
@@ -80,7 +80,7 @@ iframe {
 
 .details {
     border-top: solid 1px;
-    font-size: x-large;
+    font-size: 20px;
     padding: 10px;
     margin-top:5px;
 }
