@@ -1,8 +1,13 @@
-/* Each division with 600px */
+#panel {
+    /* border: solid; */
+ 
+}
 
+/* Each division with 600px */
 .banner {
     /* background-color: antiquewhite; */
     background-color: #81717A;
+    
 }
 
 iframe {
@@ -297,6 +302,7 @@ a:-webkit-any-link {
     padding: 15px;
     background-color: #F5D1C1;
     color: #81717A;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .info-extended {

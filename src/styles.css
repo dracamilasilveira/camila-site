@@ -1,10 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bulma/css/bulma.css';
 
 html, body { height: 100%; }
 /* body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 body { margin: 0; font-family: 'Quicksand', sans-serif !important; }
 h1, h2, h3 {
 font-family: 'Quicksand', sans-serif !important;
+}
+
+.mila-color-pink {
+    color: #F5D1C1 !important;
+}
+
+.mila-color-brown {
+    color: #81717A !important;
+}
+
+.mila-color-white-brown {
+    background-color:white;
+    color: #81717A;
+}
+
+.mila-color-brown-pink {
+    background-color:#81717A;
+    color: #F5D1C1;
+}
+
+.mila-color-pink-brown {
+    background-color:#F5D1C1;
+    color:#81717A;
 }
 
 

@@ -8,6 +8,10 @@ import { HomeComponent } from './home/home.component';
 import { MaterialModule  } from './material.module';
 import { DialogOverviewDetailed  } from './dialog-detailed';
 import { BlogComponent } from './blog/blog.component';
+import { InfoSiteComponent } from './info-site/info-site.component';
+import { GrowthDevelopmentComponent } from './growth-development/growth-development.component';
+import { CerebralPalsyComponent } from './cerebral-palsy/cerebral-palsy.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -15,7 +19,11 @@ import { BlogComponent } from './blog/blog.component';
     DialogOverviewDetailed,
     AppComponent,
     HomeComponent,
-    BlogComponent
+    BlogComponent,
+    InfoSiteComponent,
+    GrowthDevelopmentComponent,
+    CerebralPalsyComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

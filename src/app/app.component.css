@@ -1,0 +1,47 @@
+.navbar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+a.navbar-item {
+    font-weight: bolder;
+}
+
+a:hover {
+    background-color:#81717A;
+    color: #F5D1C1;
+}
+
+#drop-menu:hover {
+    font-weight: bolder !important;
+}
+
+
+.navbar-link:hover {
+    background-color: white !important;
+    color: #81717A !important;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+    border-color: #81717A;
+    margin-top: -0.375em;
+    right: 1.125em;
+}
+
+.navbar-link:not(.is-arrowless) {
+    padding-right: 2.5em;
+    font-weight: bolder;
+}
+
+.footer {
+    background-color:#81717A;
+    color: #F5D1C1;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.border-right-pink {
+    border-right: solid 1px ;
+}
+
+
+
