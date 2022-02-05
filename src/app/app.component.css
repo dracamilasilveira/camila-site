@@ -2,18 +2,32 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.footer-a {
+    color: #F5D1C1 !important;
+}
+
 a.navbar-item {
     font-weight: bolder;
 }
 
+.space-footer {
+    margin-top: 12px;
+}
+
 a:hover {
-    background-color:#81717A;
-    color: #F5D1C1;
+    background-color:#81717A !important;
+    color: #F5D1C1 !important;
+}
+
+a:focus {
+    background-color:#81717A !important;
+    color: #F5D1C1 !important;
 }
 
 #drop-menu:hover {
     font-weight: bolder !important;
 }
+
 
 
 .navbar-link:hover {

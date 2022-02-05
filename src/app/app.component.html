@@ -1,39 +1,41 @@
 <nav class="navbar mila-color-pink-brown" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-        
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-  
-    <div id="navbarBasicExample" class="navbar-menu is-center">
-      <div class="navbar-end">
-        <a class="navbar-item">
-          Início
-        </a>
-  
-        <a class="navbar-item">
-          Sobre mim
-        </a>
-  
-        <div id="drop-menu" class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link">
-              Marcos do desenvolvimento
-            </a>
-    
-            <div class="navbar-dropdown">
-                <a class="navbar-item">
-                    0-3 meses
-                </a>
-                <a class="navbar-item">
-                    0-6 meses
-                </a>
-            </div>
-          </div>
+  <div class="navbar-brand">
+    <a class="navbar-item" routerLink=''>
+      Dra. Camila Silveira
+    </a>
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
 
-        <!-- <div class="navbar-item has-dropdown is-hoverable">
+  <div id="navbarBasicExample" class="navbar-menu is-center">
+    <div class="navbar-end">
+      <a class="navbar-item" routerLink="">
+        Início
+      </a>
+
+      <a class="navbar-item" routerLink="sobre-mim">
+        Sobre mim
+      </a>
+
+      <div id="drop-menu" class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" routerLink="marcos-do-desenvolvimento">
+          Marcos do desenvolvimento
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            0-3 meses
+          </a>
+          <a class="navbar-item">
+            0-6 meses
+          </a>
+        </div>
+      </div>
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">
             Condições
           </a>
@@ -57,9 +59,9 @@
             </a>
           </div>
         </div> -->
-      </div>
-  
-      <!-- <div class="navbar-end">
+    </div>
+
+    <!-- <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons">
             <a class="button is-primary">
@@ -71,28 +73,46 @@
           </div>
         </div>
       </div> -->
-    </div>
-  </nav>
+  </div>
+</nav>
 <router-outlet></router-outlet>
 <footer class="footer has-text-centered">
-    <div class="columns">
-        <div class="column border-right-pink">
-          First column
-        </div>
-        <div class="column border-right-pink">
-          Second column
-        </div>
-        <div class="column border-right-pink">
-          Third column
-        </div>
-        <div class="column">
-          Fourth column
+  <div class="columns">
+    <div class="column border-right-pink">
+      <h2>Dra. Camila Silveira <br> Me siga no:</h2>
+    </div>
+    <div class="column border-right-pink">
+      <a class="footer-a">
+        <h2>Informações sobre marcos do desenvolvimento</h2>
+      </a>
+      <div class="space-footer">
+        <div *ngFor="let item of ages" routerLink="{{item.routerLink}}">
+          <a class="footer-a">
+            <h3 style="font-weight: bolder;">{{item.name}}</h3>
+          </a>
         </div>
       </div>
+    </div>
+    <div class="column">
+      <a class="footer-a space-footer">
+        <h2>Links Rápidos:</h2>
+      </a>
+      <div class="space-footer">
+      <div *ngFor="let item of links">
+        <a class="footer-a" routerLink="{{item.routerLink}}">
+          <h3 style="font-weight: bolder;">{{item.name}}</h3>
+        </a>
+      </div>
+      </div>
+    </div>
+    <!-- <div class="column">
+      Links rápidos
+    </div> -->
+  </div>
 
-      <div class="content has-text-centered">
-        <p>
-          Desenvolvido por Jonathas Silveira
-        </p>
-      </div>
-  </footer>
+  <div class="content has-text-centered space-footer">
+    <p style="font-weight: lighter;">
+      Desenvolvido por Jonathas Silveira
+    </p>
+  </div>
+</footer>

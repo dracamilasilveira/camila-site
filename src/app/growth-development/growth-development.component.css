@@ -1,0 +1,27 @@
+/* .mila-color-brown-pink {
+    background-color:#81717A !important;
+    color: #F5D1C1 !important;
+} */
+
+.border-zero {
+    border-radius: 0 !important;
+}
+
+.padding-zero {
+    padding: 0 !important;
+    
+    margin-bottom: 10px;
+    border-radius: 0 !important;
+}
+
+.switch-color:hover {
+    background-color:#F5D1C1;
+    color:#81717A;
+    border-radius: 4px;
+    
+}
+
+.switch-color:hover {
+    background-color:#81717A !important;
+    color: #F5D1C1 !important;
+}

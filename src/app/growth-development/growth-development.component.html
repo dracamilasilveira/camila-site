@@ -1,1 +1,24 @@
-<p>growth-development works!</p>
+<div class="container is-widescreen has-text-centered is-primary">
+    <div class="notification title is-3 mila-color-brown-pink border-zero">
+        Marcos do desenvolvimento
+    </div>
+</div>
+
+<div class="container">
+    <div class="notification mila-color-pink-brown has-text-centered padding-zero">
+        <div class="columns">
+            <div class="column"  *ngFor="let item of ages">
+                <div class="subtitle is-4  switch-color"> {{item.name}} </div>
+            </div>
+          </div>
+    </div>
+</div>
+<div class="container is-widescreen">
+    <section class="section" style="border: solid;">
+        <h1 class="title">Medium section</h1>
+        <h2 class="subtitle">
+            A simple container to divide your page into <strong>sections</strong>, like the one you're currently
+            reading.
+        </h2>
+    </section>
+</div>
