@@ -19,9 +19,9 @@ export class AppComponent {
   
   links: Array<Link> = [
     { 'name': 'Início', 'routerLink': '' },
-    { 'name': 'Marcos do desenvolvimento', 'routerLink': 'marcos-do-desenvolvimento' },
-    { 'name': 'Paralisia Cerebral', 'routerLink': 'paralisia-cerebral' },
-    { 'name': 'Sobre mim', 'routerLink': 'sobre-mim' }
+    /* { 'name': 'Marcos do desenvolvimento', 'routerLink': 'marcos-do-desenvolvimento' }, */
+    /* { 'name': 'Paralisia Cerebral', 'routerLink': 'paralisia-cerebral' }, */
+    /* { 'name': 'Sobre mim', 'routerLink': 'sobre-mim' } */
   ]
 
   ages: Array<Link> = [

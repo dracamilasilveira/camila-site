@@ -3,6 +3,17 @@
  
 }
 
+
+.hero-photo-mila {
+    width:50%;
+}
+
+.hero-body{
+                justify-content: center;
+                padding:0px
+                        
+}
+
 /* Each division with 600px */
 .banner {
     /* background-color: antiquewhite; */
@@ -99,8 +110,14 @@ iframe {
     padding:30px;
     margin:10px;
     background-color:white;
-    min-height:510px;
+    /* min-height:410px; */
+    height:460px;
     box-shadow: 2px 2px 2px 2px darkgrey;
+}
+
+.care-appointment .icons {
+    padding:0px !important;
+    margin-right:0px !important;
 }
 
 iframe {
@@ -306,7 +323,7 @@ a:-webkit-any-link {
 }
 
 .info-extended {
-    min-height:600px;
+    /* min-height:600px; */
 }
 
 .info {
