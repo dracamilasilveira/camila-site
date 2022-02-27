@@ -1,24 +1,82 @@
-<div class="container is-widescreen has-text-centered is-primary">
-    <div class="notification title is-3 mila-color-brown-pink border-zero">
-        Marcos do desenvolvimento
+<div style="margin-top: 15px; margin-bottom: 15px;">
+    <div class="container is-widescreen has-text-centered is-primary">
+        <div class="notification title is-3 mila-color-brown-pink border-zero">
+            Marcos do desenvolvimento
+        </div>
     </div>
-</div>
 
-<div class="container">
-    <div class="notification mila-color-pink-brown has-text-centered padding-zero">
-        <div class="columns">
-            <div class="column"  *ngFor="let item of ages">
-                <div class="subtitle is-4  switch-color"> {{item.name}} </div>
+    <div class="container">
+        <div class="notification mila-color-pink-brown has-text-centered">
+            <div class="columns">
+                <div id="age{{item.id}}" class="column switch-color" *ngFor="let item of ages" (click)="selectAge(item)">
+                    <div class="subtitle is-4"> {{item.name}} </div>
+                </div>
             </div>
-          </div>
+        </div>
     </div>
-</div>
-<div class="container is-widescreen">
-    <section class="section" style="border: solid;">
-        <h1 class="title">Medium section</h1>
-        <h2 class="subtitle">
-            A simple container to divide your page into <strong>sections</strong>, like the one you're currently
-            reading.
-        </h2>
-    </section>
+    <div class="container is-widescreen">
+        <section class="section mid-section">
+            <h1 class="title">Medium section</h1>
+            <h2 class="subtitle">
+                A simple container to divide your page into <strong>sections</strong>, like the one you're currently
+                reading.
+            </h2>
+        </section>
+    </div>
+
+    <div class="container is-widescreen">
+        <div class="card">
+            <div class="card-content">
+            <div class="content">
+                Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-8">
+                      <div class="tile">
+                        <div class="tile is-parent is-vertical">
+                          <article class="tile is-child notification is-primary">
+                            <p class="title">Vertical...</p>
+                            <p class="subtitle">Top tile</p>
+                          </article>
+                          <article class="tile is-child notification is-warning">
+                            <p class="title">...tiles</p>
+                            <p class="subtitle">Bottom tile</p>
+                          </article>
+                        </div>
+                        <div class="tile is-parent">
+                          <article class="tile is-child notification is-info">
+                            <p class="title">Middle tile</p>
+                            <p class="subtitle">With an image</p>
+                            <figure class="image is-4by3">
+                              <img src="https://bulma.io/images/placeholders/640x480.png">
+                            </figure>
+                          </article>
+                        </div>
+                      </div>
+                      <div class="tile is-parent">
+                        <article class="tile is-child notification is-danger">
+                          <p class="title">Wide tile</p>
+                          <p class="subtitle">Aligned with the right tile</p>
+                          <div class="content">
+                            <!-- Content -->
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="tile is-parent">
+                      <article class="tile is-child notification is-success">
+                        <div class="content">
+                          <p class="title">Tall tile</p>
+                          <p class="subtitle">With even more content</p>
+                          <div class="content">
+                            <!-- Content -->
+                          </div>
+                        </div>
+                      </article>
+                    </div>
+                  </div>
+            </div>
+            </div>
+        </div>
+    </div>
 </div>

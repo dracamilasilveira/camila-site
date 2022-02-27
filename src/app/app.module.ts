@@ -12,6 +12,7 @@ import { InfoSiteComponent } from './info-site/info-site.component';
 import { GrowthDevelopmentComponent } from './growth-development/growth-development.component';
 import { CerebralPalsyComponent } from './cerebral-palsy/cerebral-palsy.component';
 import { AboutComponent } from './about/about.component';
+import { FormComponent } from './form/form.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AboutComponent } from './about/about.component';
     InfoSiteComponent,
     GrowthDevelopmentComponent,
     CerebralPalsyComponent,
-    AboutComponent
+    AboutComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

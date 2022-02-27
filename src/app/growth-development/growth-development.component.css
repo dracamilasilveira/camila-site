@@ -14,14 +14,20 @@
     border-radius: 0 !important;
 }
 
-.switch-color:hover {
-    background-color:#F5D1C1;
-    color:#81717A;
-    border-radius: 4px;
-    
+.mid-section {
+    border-left: solid 2px #81717A;
+    border-right: solid 2px #81717A;
 }
 
 .switch-color:hover {
-    background-color:#81717A !important;
-    color: #F5D1C1 !important;
+    background-color:#81717A;
+    color:#F5D1C1;
+    
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* padding: 0.75rem;  */
+    /* padding: 0.75rem 0.75rem 0.75rem 0.75rem;  */
+    cursor: pointer;
 }
